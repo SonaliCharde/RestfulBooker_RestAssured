@@ -14,11 +14,11 @@ public class GetBookingByID {
     public void BYID(){
         requestSpecification = RestAssured.given();
         requestSpecification.baseUri("https://restful-booker.herokuapp.com");
-        requestSpecification.basePath("/booking/:500");
+        requestSpecification.basePath("/booking/2788");
 
         Response response = requestSpecification.when().log().all().get();
         validatableResponse = response.then().log().body();
-        validatableResponse = response.then().assertThat().statusCode(404);
+        validatableResponse = response.then().assertThat().statusCode(200);
 
     }
 }

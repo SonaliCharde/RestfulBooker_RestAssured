@@ -39,6 +39,7 @@ public class CreateNonBDDStyle {
         String responsebody = response.asString();
 
         System.out.println(responsebody);
+        validatableResponse.extract().body().toString();
 
 
 

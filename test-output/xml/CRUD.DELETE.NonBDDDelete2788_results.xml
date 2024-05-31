@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="5.003">
+           time="4.940">
     <properties></properties>
 
 
 
             <testcase
-                name="BYID"
-                time="5.003"
-                classname="CRUD.GET.GetBookingByID">
+                name="deletebookingNONBDD"
+                time="4.940"
+                classname="CRUD.DELETE.NonBDDDelete2788">
             </testcase>
 </testsuite>

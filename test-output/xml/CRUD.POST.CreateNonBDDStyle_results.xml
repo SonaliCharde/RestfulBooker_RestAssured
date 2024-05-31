@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="4.737">
+           time="5.194">
     <properties></properties>
 
 
 
             <testcase
                 name="CreateBookingNonBDD"
-                time="4.737"
+                time="5.194"
                 classname="CRUD.POST.CreateNonBDDStyle">
             </testcase>
 </testsuite>
